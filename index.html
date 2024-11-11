@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="py-6 mx-4 uppercase">
+        <div class="container flex justify-between">
+            <img src="./img/logo.svg" class="w-10 lg:w-8" alt="">
+            <ul class="hidden lg:flex items-center space-x-5 text-md">
+                <li class="hover:underline"><a href="">home</a></li>
+                <li class="hover:underline"><a href="">about</a></li>
+                <li class="hover:underline"><a href="">works</a></li>
+                <li class="hover:underline"><a href="">contact</a></li>
+            </ul>
+            <button class="px-3 py-1 lg:hidden">
+                <img src="./img/bars.svg" class="w-12" alt="">
+            </button>
+        </div>
+    </nav>
+
+    <main class="mx-4">
+        <section class="container flex flex-col items-center p-8 bg-zinc-900 text-white rounded-3xl">
+            <div class="max-w-prose flex flex-col justify-center items-center my-14 text-center">
+                <h1 class="text-5xl font-bold">Visual Designer Based in Indonesia</h1>
+                <p class="mt-4 mb-6 text-sm font-extralight text-zinc-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore recusandae reprehenderit,
+                    voluptas id cumque provident minus.
+                </p>
+                <a href=""
+                    class="px-6 py-3 font-bold rounded-3xl bg-gradient-to-b from-orange-400 to-orange-500 hover:to-orange-700">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-6 lg:flex-row">
+                <div class="img-left relative rounded-3xl overflow-hidden hover:scale-95 transition-transform">
+                    <img src="./img/image1.png" alt="Nothing Phone">
+                    <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
+                </div>
+                <div class="img-right relative rounded-3xl overflow-hidden hover:scale-95 transition-transform">
+                    <img src="./img/image2.png" alt="Nothing Phone">
+                    <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container flex flex-col justify-center items-center my-32">
+            <p class="text-sm font-extralight uppercase text-zinc-400 tracking-[6px]">about me</p>
+            <img src="./img/avatar.png" alt="Donnie" class="my-12 w-56">
+            <p class="max-w-[32ch] px-12 text-3xl text-zinc-800 font-medium lg:px-0">
+                Hi I'm Donnie and I am passionate about everything that has to do with Digital Design and Art Direction.
+                I enjoy working with agencies and enthusiastic people who want to solve problems through beautiful
+                designs and experiences.
+            </p>
+        </section>
+
+        <section class="container flex flex-col items-center p-8 bg-zinc-900 text-white rounded-3xl">
+            <p class="mt-20 text-md font-extralight uppercase text-zinc-300 tracking-[6px]">what i'm doing</p>
+
+            <ul class="mt-12 mb-24 space-y-10 text-center text-4xl font-medium uppercase md:text-5xl lg:text-6xl">
+                <li class="transition-transform duration-300 md:hover:translate-x-10">branding design</li>
+                <li class="transition-transform duration-300 md:hover:-translate-x-10">ui/ux design</li>
+                <li class="transition-transform duration-300 md:hover:translate-x-10">development</li>
+                <li class="transition-transform duration-300 md:hover:-translate-x-10">digital marketing</li>
+            </ul>
+
+            <div class="photos flex gap-8">
+                <div class="relative rounded-3xl overflow-hidden hover:scale-95 transition-transform">
+                    <img src="./img/image3.jpeg" alt="Nothing Phone">
+                    <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
+                </div>
+                <div class="relative hidden rounded-3xl overflow-hidden hover:scale-95 transition-transform md:block">
+                    <img src="./img/image4.jpeg" alt="Nothing Phone">
+                    <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
+                </div>
+                <div class="relative hidden rounded-3xl overflow-hidden hover:scale-95 transition-transform lg:block">
+                    <img src="./img/image5.jpeg" alt="Nothing Phone">
+                    <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container flex flex-col justify-center items-center my-32 text-zinc-400 px-8">
+            <p class="mb-20 text-sm font-extralight uppercase  tracking-[6px]">past clients</p>
+            <div class="clients space-y-16">
+
+                <div class="box md:flex">
+                    <div class="number hidden md:block md:w-1/2 text-xl">
+                        <p>0 1</p>
+                    </div>
+                    <div class="company flex flex-col md:w-1/2">
+                        <img src="./img/fb.png" alt="logo FB" class="max-w-[240px] mb-8">
+                        <p>Through our community practice, helping one of the world's leading technology companies
+                            advise and mentor for an ongoing global initiative that spotlights inspirational YouTube
+                            creators.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="box md:flex">
+                    <div class="number hidden md:block md:w-1/2 text-xl">
+                        <p>0 2</p>
+                    </div>
+                    <div class="company flex flex-col md:w-1/2">
+                        <img src="./img/netflix.svg" alt="logo FB" class="max-w-[240px] mb-8">
+                        <p>Through our community practice, helping one of the world's leading technology companies
+                            advise and mentor for an ongoing global initiative that spotlights inspirational YouTube
+                            creators.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="box md:flex">
+                    <div class="number hidden md:block md:w-1/2 text-xl">
+                        <p>0 3</p>
+                    </div>
+                    <div class="company flex flex-col md:w-1/2">
+                        <img src="./img/zoom.svg" alt="logo FB" class="max-w-[240px] mb-8">
+                        <p>Through our community practice, helping one of the world's leading technology companies
+                            advise and mentor for an ongoing global initiative that spotlights inspirational YouTube
+                            creators.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-zinc-900 text-white rounded-t-3xl">
+        <div class="container p-8 flex flex-col items-center
+        lg:flex-row lg:justify-between">
+
+            <div class="author flex flex-col items-center mb-16">
+                <img src="./img/avatar.png" alt="Donnie" class="my-12 w-32">
+                <p class="text-lg">Visual Designer Based in Indonesia</p>
+            </div>
+
+            <div class="links flex flex-col space-y-12 text-center
+            lg:flex-row lg:space-y-0 lg:space-x-20 lg:text-left">
+                <div class="links-group flex flex-col space-y-2 ">
+                    <p class="font-bold">Navigation</p>
+                    <a href="" class="font-thin text-sm">Home</a>
+                    <a href="" class="font-thin text-sm">About</a>
+                    <a href="" class="font-thin text-sm">Expertise</a>
+                    <a href="" class="font-thin text-sm">Work</a>
+                </div>
+                <div class="links-group space-y-2 flex flex-col">
+                    <p class="font-bold">Services</p>
+                    <a href="" class="font-thin text-sm">Branding</a>
+                    <a href="" class="font-thin text-sm">UI/UX Design</a>
+                    <a href="" class="font-thin text-sm">Development</a>
+                    <a href="" class="font-thin text-sm">Digital Marketing</a>
+                </div>
+                <div class="links-group space-y-2 flex flex-col">
+                    <p class="font-bold">Social Media</p>
+                    <a href="" class="font-thin text-sm">Dribbble</a>
+                    <a href="" class="font-thin text-sm">Twitter</a>
+                    <a href="" class="font-thin text-sm">Instagram</a>
+                    <a href="" class="font-thin text-sm">LinkedIn</a>
+                </div>
+            </div>
+
+        </div>
+        <p class="py-8 border-t border-zinc-600 text-zinc-600 text-center">
+            2023 | Donnie Yen
+        </p>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
